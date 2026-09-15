@@ -34,3 +34,15 @@ When your making a model from scratch you have alot of more customization, but i
 
 # How To Use Open-Source Models
 Download our GUI version and press the "Open-Source Models" tab in the left sidebar and select the open-source model you would like to download. We will also check if you have enough disk space and system specs to run that model using our training framework.
+
+# How Good It Actually Is
+Let's compare it to standard PyTorch and Numpy.
+- With PyTorch, NVIDIA Geforce RTX 3050 and 4GB VRAM you could run: Up to qwen 2.5 7b. You can forget about 14b, GLM or Boongle models.
+With Numpy its similar to PyTorch, **BUT** it may be a little bit better, so it COULD run qwen 2.5 14b, but with a speed of less than 10 tokens per second.
+
+Now lets prove how good BoongleTraining actually is:
+- With BoongleTraining, NVIDIA Geforce RTX 3050 and 4GB VRAM you could run: qwen 2.5 7b and 14b easily with 200 tokens per second speed guaranteed.
+- You can also run glm 4.7 flash EASILY. Kimi K2.5 is also possible with ~ 30 tokens per second speed, but with a **NVIDIA Geforce RTX 4050** Kimi K2.5 also would fit perfectly.
+
+Training speed:
+Around 1 minute training time on PyTorch equals to ~ 2.5 seconds using BoongleTraining framework.
