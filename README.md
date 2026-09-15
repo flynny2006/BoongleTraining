@@ -16,7 +16,7 @@ Train AI models with our training interface or python framework.
 - Max 800 tokens / sec speed
 - Faster training
 
-## Trainer Plan $40/mo:
+### Trainer Plan $40/mo:
 - No model limits available
 - Unlimited parameters
 - Unlimited speed based on your specs
