@@ -29,4 +29,4 @@ We currently support the following open-source models:
 - **qwen2.5:14b**: Qwen 2.5 with 14B parameters, expandable.
 - **glm-4.7-flash**: GLM 4.7 Flash, expandable.
 - **kimi-k2.5**: Kimi K2.5, expandable.
-- **boongle-1.6-flash** Our own Boongle 1.6 Flash model with 437B parameters and fully expandable.
+- **boongle-1.6-flash**: Our own Boongle 1.6 Flash model with 437B parameters and fully expandable.
